@@ -1154,6 +1154,7 @@ a {
 .cid-sPAAehMHXc .carousel-caption {
   bottom: 40px;
   text-align: left;
+  margin-bottom: 5rem;
 }
 .cid-sPAAehMHXc .mobi-mbri-arrow-next {
   margin-left: 5px;
@@ -1169,6 +1170,16 @@ a {
 .cid-sPAAehMHXc .item-wrapper {
   width: 100%;
 }
+
+.cid-sPAAehMHXc .carousel-caption-group{
+  margin-bottom: 6rem !important;
+}
+
+.cid-sPAAehMHXc .btn {
+  width: 300px !important;
+  border-radius: 1.5rem;
+}
+
 @media (max-width: 767px) {
   .cid-sPAAehMHXc .container .carousel-control {
     margin-bottom: 0;
