@@ -74,6 +74,21 @@
 /* Vertical Carrousel END */
 
 
+/* Carrousel Eventos */
+.cid-sPxOBMPMyc .carousel{
+  position: relative;
+  border-style: solid;
+  border-color: black;
+  border-radius: 1em;
+  border-color: #37bbec;
+  border-width: thick;
+}
+
+
+.center {
+  margin: 0 auto;
+  width: 80%;
+}
 
 .btn {
   border-width: 2px;
@@ -82,7 +97,7 @@ body {
   font-family: Roboto;
 }
 .card-title{
-  color: #37bbec;
+  color: #37bbec !important;
 }
 .left{
   text-align: left !important;
@@ -827,7 +842,8 @@ a {
 }
 .cid-sFCw1qGFAI .nav-dropdown .link {
   padding: 0 0.3em !important;
-  margin: 0.667em 1em !important;
+  margin: 0.667em 2em !important;
+  color: white !important;
 }
 .cid-sFCw1qGFAI .nav-dropdown .link.dropdown-toggle::after {
   margin-left: 0.5rem;
@@ -878,7 +894,7 @@ a {
   margin: 0 !important;
 }
 .cid-sFCw1qGFAI .navbar {
-  min-height: 70px;
+  min-height: 90px;
   transition: all 0.3s;
   border-bottom: 1px solid transparent;
   box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1);
@@ -896,9 +912,11 @@ a {
 .cid-sFCw1qGFAI .navbar .navbar-collapse {
   justify-content: flex-end;
   z-index: 1;
+  
 }
 .cid-sFCw1qGFAI .navbar.collapsed {
-  justify-content: center;
+  justify-content: right;
+  background-color: #1e354f !important;
 }
 .cid-sFCw1qGFAI .navbar.collapsed .nav-item .nav-link::before {
   display: none;
@@ -2150,6 +2168,9 @@ a {
   .cid-sFCygHrmNf .row .social-list {
     -webkit-justify-content: center;
     justify-content: center;
+  }
+  .cid-sFCw1qGFAI .nav-dropdown .link{
+    color: #37bbed !important;
   }
 }
 .cid-sFCygHrmNf .row .row-copirayt {
