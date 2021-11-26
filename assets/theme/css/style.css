@@ -826,12 +826,14 @@ textarea.form-control {
 }
 
 .form-group {
-  margin-bottom: 1.2rem;
+  margin-bottom: 0rem;
 }
 
 .form-control,
 form .btn {
-  min-height: 48px;
+  min-height: 68px;
+  margin-bottom: 3rem;
+  
 }
 
 .gdpr-block label span.textGDPR input[name=gdpr] {
