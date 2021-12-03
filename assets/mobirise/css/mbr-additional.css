@@ -1190,11 +1190,13 @@ a {
 
 .cid-sPAAehMHXc .carousel-caption-group{
   margin-bottom: 6rem !important;
+  width: 800px;
 }
 
 .cid-sPAAehMHXc .btn {
   width: 300px !important;
   border-radius: 1.5rem;
+  padding: 0.175rem 0.75rem;
 }
 
 @media (max-width: 767px) {
