@@ -113,7 +113,7 @@ body {
 }
 .display-1 {
   font-family: 'Roboto', sans-serif;
-  font-size: 4rem;
+  font-size: 60px;
   line-height: 1.1;
 }
 .display-1 > .mbr-iconfont {
@@ -121,15 +121,15 @@ body {
 }
 .display-2 {
   font-family: 'Roboto', sans-serif;
-  font-size: 3rem;
+  font-size: 2rem;
   line-height: 1.1;
 }
 .display-2 > .mbr-iconfont {
-  font-size: 3.75rem;
+  font-size: 40px;
 }
 .display-4 {
   font-family: 'Roboto', sans-serif;
-  font-size: 1.1rem;
+  font-size: 24px;
   line-height: 1.5;
 }
 .display-4 > .mbr-iconfont {
@@ -145,10 +145,19 @@ body {
 }
 .display-7 {
   font-family: 'Roboto', sans-serif;
-  font-size: 1.5rem;
-  line-height: 1.5;
+  font-size: 15px;
+  line-height: 1.2;
 }
 .display-7 > .mbr-iconfont {
+  font-size: 1.5rem;
+}
+
+.display-8 {
+  font-family: 'Roboto', sans-serif;
+  font-size: 20px;
+  line-height: 1.2;
+}
+.display-8 > .mbr-iconfont {
   font-size: 1.5rem;
 }
 /* ---- Fluid typography for mobile devices ---- */
@@ -896,7 +905,6 @@ a {
 .cid-sFCw1qGFAI .navbar {
   min-height: 90px;
   transition: all 0.3s;
-  border-bottom: 1px solid transparent;
   box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1);
   background: #fafafa;
 }
@@ -1273,9 +1281,9 @@ a {
   }
 }
 .cid-sPxJ3QIeVo {
-  padding-top: 6rem;
-  padding-bottom: 6rem;
+  padding: 6rem;  
   background-color: #ffffff;
+  padding-bottom: 4em;
 }
 .cid-sPxJ3QIeVo .card-wrapper {
   padding-right: 2rem;
@@ -1298,12 +1306,12 @@ a {
   object-fit: cover;
 }
 .cid-sPADWBVEoL {
-  padding-top: 6rem;
-  padding-bottom: 6rem;
+
   background-color: #ffffff;  
 }
 .cid-sPADWBVEoL .item {
   padding-bottom: 2rem;
+  width: 250px;
 }
 .cid-sPADWBVEoL .item-wrapper {
   height: auto;
