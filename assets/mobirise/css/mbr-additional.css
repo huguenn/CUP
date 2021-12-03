@@ -2076,9 +2076,7 @@ a {
 .cid-sPAIlT5Mpd H6 {
   text-align: center;
 }
-.cid-sPxOn8j5LO {
-  background-image: url("../../../assets/images/grafico-te-ofrecemos-confondo-mesa-de-trabajo-1.jpg");
-}
+
 .cid-sPxOBMPMyc {
   padding-top: 6rem;
   padding-bottom: 6rem;
@@ -2089,8 +2087,8 @@ a {
     margin-bottom: 1rem;
   }
 }
-.cid-sPxOBMPMyc img {
-  width: 100%;
+.cid-sPxOBMPMyc .carousel-control {
+  width: auto;
 }
 @media (min-width: 992px) {
   .cid-sPxOBMPMyc .text-wrapper {
