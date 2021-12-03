@@ -111,6 +111,11 @@ body {
 .color-primario{
   color: #37bbed !important;
 }
+
+.color-secundario{
+  color: #1E354F !important;
+}
+
 .display-1 {
   font-family: 'Roboto', sans-serif;
   font-size: 60px;
@@ -129,7 +134,7 @@ body {
 }
 .display-4 {
   font-family: 'Roboto', sans-serif;
-  font-size: 24px;
+  font-size: 20px;
   line-height: 1.5;
 }
 .display-4 > .mbr-iconfont {
@@ -164,7 +169,7 @@ body {
 
 .display-8 {
   font-family: 'Roboto', sans-serif;
-  font-size: 20px;
+  font-size: 18px;
   line-height: 1.2;
 }
 .display-8 > .mbr-iconfont {
@@ -876,7 +881,7 @@ a {
   margin: auto;
 }
 .cid-sFCw1qGFAI .iconfont-wrapper {
-  color: #000000 !important;
+  color: #43BFEE !important;
   font-size: 1.5rem;
   padding-right: 0.5rem;
 }
@@ -1323,7 +1328,7 @@ a {
 }
 .cid-sPADWBVEoL .item {
   padding-bottom: 2rem;
-  width: 250px;
+  width: 270px;
 }
 .cid-sPADWBVEoL .item-wrapper {
   height: auto;
@@ -2131,6 +2136,13 @@ a {
   padding-bottom: 2rem;
   background-color: #1e354f;
 }
+
+.cid-sFCygHrmNf .media {
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  background-color: #1e354f;
+}
+
 .cid-sFCygHrmNf .row-links {
   width: 100%;
   justify-content: center;
