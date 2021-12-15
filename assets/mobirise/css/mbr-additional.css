@@ -1302,7 +1302,7 @@ a {
 }
 @media (max-width: 768px) {
   .cid-sPAAehMHXc .carousel-indicators {
-    display: none !important;
+    
   }
 }
 .cid-sPxJ3QIeVo {
@@ -2210,6 +2210,17 @@ a {
   .cid-sFCw1qGFAI .nav-dropdown .link{
     color: #37bbed !important;
   }
+
+  .col-8 {
+    flex: 0 0 auto;
+    width: 95.6666666667% !important;
+}
+
+.carousel-caption{
+  left: 5% !important;
+  right: 5% !important;
+}
+
 }
 .cid-sFCygHrmNf .row .row-copirayt {
   word-break: break-word;
