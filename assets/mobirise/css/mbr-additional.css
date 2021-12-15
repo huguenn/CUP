@@ -72,7 +72,9 @@
 
 
 /* Vertical Carrousel END */
-
+.cid-sPxOBMPMyc .carousel-item img {
+  border-radius: 2em;
+}
 
 /* Carrousel Eventos */
 .cid-sPxOBMPMyc .carousel{
@@ -118,7 +120,7 @@ body {
 
 .display-1 {
   font-family: 'Roboto', sans-serif;
-  font-size: 60px;
+  font-size: 4em;
   line-height: 1.1;
 }
 .display-1 > .mbr-iconfont {
@@ -160,7 +162,7 @@ body {
 
 .display-7 {
   font-family: 'Roboto', sans-serif;
-  font-size: 15px;
+  font-size: 25px;
   line-height: 1.2;
 }
 .display-7 > .mbr-iconfont {
@@ -187,9 +189,7 @@ body {
 }
 @media (max-width: 768px) {
   .display-1 {
-    font-size: 2.8rem;
-    font-size: calc( 2.05rem + (4 - 2.05) * ((100vw - 20rem) / (48 - 20)));
-    line-height: calc( 1.1 * (2.05rem + (4 - 2.05) * ((100vw - 20rem) / (48 - 20))));
+    font-size: 2.5rem;
   }
   .display-2 {
     font-size: 2.4rem;
@@ -211,6 +211,14 @@ body {
     font-size: calc( 1.07rem + (1.2 - 1.07) * ((100vw - 20rem) / (48 - 20)));
     line-height: calc( 1.4 * (1.07rem + (1.2 - 1.07) * ((100vw - 20rem) / (48 - 20))));
   }
+  .cid-sPxJ3QIeVo { 
+    padding: 1rem !important;        
+    background-color: #fff;
+    padding-bottom: 4em;
+  }
+  .cid-sPAIlT5Mpd img {
+    width: 100% !important;
+    }
 }
 /* Buttons */
 .btn {
@@ -274,7 +282,7 @@ body {
   border-color: #37bbed !important;
   color: #ffffff !important;
   box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.2);
-  border-radius: 2rem;
+  border-radius: 1rem;
   
   padding: 0.6rem 0.6rem;
 }
@@ -882,7 +890,7 @@ a {
 }
 .cid-sFCw1qGFAI .iconfont-wrapper {
   color: #43BFEE !important;
-  font-size: 1.5rem;
+  font-size: 2.5rem;
   padding-right: 0.5rem;
 }
 .cid-sFCw1qGFAI .dropdown-menu,
@@ -1154,7 +1162,7 @@ a {
   display: flex;
   justify-content: center;
   padding-left: 1rem;
-  padding-right: 1rem;
+  padding-right: 3rem;
   padding-top: 0.3rem;
   text-align: center;
 }
@@ -1196,7 +1204,7 @@ a {
 .cid-sPAAehMHXc .carousel-caption {
   bottom: 40px;
   text-align: left;
-  margin-bottom: 5rem;
+  
 }
 .cid-sPAAehMHXc .mobi-mbri-arrow-next {
   margin-left: 5px;
@@ -1214,8 +1222,8 @@ a {
 }
 
 .cid-sPAAehMHXc .carousel-caption-group{
-  margin-bottom: 6rem !important;
-  width: 800px;
+  margin-bottom: 2rem !important;
+  
 }
 
 .cid-sPAAehMHXc .btn {
@@ -1762,7 +1770,6 @@ a {
   opacity: 1;
 }
 @media (max-width: 768px) {
-  .cid-sPxKlohxCq .carousel-control,
   .cid-sPxKlohxCq .carousel-indicators,
   .cid-sPxKlohxCq .modal .close {
     position: fixed;
