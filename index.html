@@ -51,6 +51,10 @@
       href="assets/mobirise/css/mbr-additional.css"
       type="text/css"
     />
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
   </head>
   <body>
     <section
@@ -291,9 +295,9 @@
                 <div class="carousel-caption-group">
                   <div class="row">
                   <div class="col-8">
-                <p class="mbr-section-text mbr-fonts-style display-4 mt-3">
-                    IMPLEMENTACIÓN
-                  </p>
+                  <p class="mbr-section-text mbr-fonts-style display-4 mt-3">
+                      IMPLEMENTACIÓN
+                   </p>
                 <h5 class="mbr-section-subtitle mbr-fonts-style display-1">
                   <strong>Nos ocupamos de</strong>
                   <div><strong>gestionar proyectos</strong></div>
@@ -577,22 +581,22 @@
       id="gallery5-f"
     >
       <div class="container">
-        <div class="row mbr-gallery mt-4">
+        <div class="row mbr-gallery m-4">
 
-          <div class="col-12 col-md-6 col-lg-4 item gallery-image">
+          <div class="col-12 col-md-6 col-lg-3 item gallery-image">
             <img
-              class="w-75"
+              class="img-responsive"
               src="assets/images/logo-ministerio-7.png"
             />
           </div>
 
 
-          <div class="col-12 col-md-6 col-lg-4 item gallery-image">
+          <div class="col-12 col-md-6 col-lg-5 item gallery-image">
             <div
               class="item-wrapper"
             >
               <img
-                class="w-75"
+                class="img-responsive"
                 src="assets/images/logo-unso-7.png"
 
               />
@@ -606,7 +610,7 @@
               class="item-wrapper"
             >
               <img
-                class="w-75"
+                class="img-responsive"
                 src="assets/images/logo-header.png"
               />
           </div>
@@ -641,8 +645,9 @@
     </section>
 
     <section data-bs-version="5.1" class="image1 cid-sPxOBMPMyc" id="eventos">
-      <div class="container my-4 w-75 ">
-        <h1 class="color-secundario m-5">Nuestros Eventos</h1>
+      <div class="container-fluid my-4">
+        <div class="container">
+        <h2 class="color-secundario m-5">Nuestros Eventos</h2>
 
         <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
             <!-- Diapositivas -->
@@ -658,9 +663,9 @@
                                     <h5 class="card-title display-7 mb-3 mt-5">Herramientas para mejorar la productividad de tu PyME o emprendimiento</h5>
                                     <p class="card-text display-8">Hablamos de Pagos Digitales y aportes no reembolsables para financiar proyectos de desarrollo empresarial. </p>
                                 </div>
-                                <button class="btn btn-secondary display-8 rounded-4 w-50 align-bottom mt-5">
+                                <a href="#popup1"><button class="btn btn-secondary display-8 rounded-4 w-50 align-bottom mt-5">
                                   Ver Más
-                                </button>
+                                </button></a>
                             </div>
                             <div class="col-md-2">
                               <h5>02/11/2021</h5>
@@ -680,24 +685,49 @@
 
         </div>
         
-    
+      </div>
+
+        <!-- Controles -->
+        <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+          <img class="carousel-control" src="assets/images/flecha_iz_galeria.png">
+
+      </a>
+      <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+        <img class="carousel-control" src="assets/images/flecha_der_galeria.png">
+
+      </a>
     </div><!--//container-->
-                <!-- Controles -->
-                <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
-                  <img class="carousel-control" src="assets/images/flecha_iz_galeria.png">
-
-              </a>
-              <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
-                <img class="carousel-control" src="assets/images/flecha_der_galeria.png">
-
-              </a>
 
          
-            <div class="container my-4 w-75 mt-5">
-              <div class="row">
-                <img src="assets/images/proximos.png">
-              </div>
+          <div class="container-fluid">
+              
+            <div class="container">
+              <h4 class="color-secundario m-5">PRÓXIMOS EVENTOS</h4>
+                <div class="row rounded-4 p-3" style="background-color: #1E354F;">
+                  
+                    <div class="row align-middle p-3">
+                        <div class="col-md-5 color-primario text-center mb-3">
+                        <h4>NO DISPONIBLE</h4>
+                        </div>
+                        <div class="col-md-2 .d-sm-none .d-md-block">
+                        <div class="vl"></div>      
+                        </div>
+                          <div class="col-md-5 white">
+                            <div class="row">
+                              <div class="col-md-6">
+                              <img src="assets/images/LogoCalendario.jpg" style="width: auto;"><h4>NO DISPONIBLE</h4>
+                              <img src="assets/images/LogoHora.jpg" style="width: auto;"><h4>NO DISPONIBLE</h4>
+                              </div>
+                              <div class="col-md-6 align-center mt-3">
+                              <button class="btn btn-primary">Inscribite Acá</button>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                  
+                    </div>
             </div>
+  </div>
           
             
     </section>
@@ -814,21 +844,19 @@
     <div class="container-flex mb-xxl-5 mt-xxl-5">
         <div class="row justify-content-center align-center">
             <div class="col-md-1"></div>
-            <div class="col-md-3 m-5">
+            <div class="col-md-3">
               <div class="media">
               <img class="w-100" src="assets/images/logo_ministerio_blanco-07.png">
             </div>
           </div>
 
-            <div class="col-md-3 m-5">
+            <div class="col-md-3">
                 <div class="media">
                 <img class="w-100" src="assets/images/logo_unso_blanco-07.png">
                 </div>
-            </div>
+            </div>          
 
-            
-
-            <div class="col-md-3 m-5">
+            <div class="col-md-3">
               <div class="media">
               <img class="w-100" src="assets/images/logo_cup_blanco-07.png">
           </div>
@@ -905,6 +933,16 @@
           </div>
         </div>
       </div>
+
+
+
+
+
+
+
+
+
+
     </section>
     <section
       style="display: none; 
@@ -931,5 +969,31 @@
     <script src="assets/dropdown/js/navbar-dropdown.js"></script>
     <script src="assets/theme/js/script.js"></script>
     <script src="assets/formoid/formoid.min.js"></script>
+
+    <div id="popup1" class="overlay">
+      <div class="popup">
+        <a class="close" href="#">&times;</a>
+        <div class="content">
+          <div class="row">
+              <div class="col-md-6">
+                <img src="assets/images/imagen-popup-eventos.png">
+              </div>
+              <div class="col-md-6">
+                <div class="card">
+                  <div class="card-body m-5">
+                    <h5>07/10/2021    16:00 hs</h5>
+                    <p class="card-text">
+                      <hr class="mt-2 mb-3"/>
+                      <h2 class="color-primario">Herramientas de vinculación tecnológica y transformación digital para PyMES</h2>
+                      <p class="display-7">Se presentaron Instrumentos e Iniciativas para la Transformación Digital de MiPYMES por parte de la SEPYME, las actividades de la Red de los Centros tecnológicos de ADIMRA y los servicios que ofrece nuestro Centro.</p>
+                    </p>
+                  </div>
+                </div>              
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
   </body>
 </html>
