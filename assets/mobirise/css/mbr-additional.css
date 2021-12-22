@@ -2295,6 +2295,10 @@ display: none;
   
 }
 
+.popup .img {
+  border-bottom-left-radius: 30px;
+  border-top-left-radius: 30px;
+}
 .popup h2 {
   margin-top: 0;
   color: #333;
