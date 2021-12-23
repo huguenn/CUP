@@ -664,7 +664,7 @@
                                     <h5 class="card-title display-7 mb-3 mt-5">Herramientas para mejorar la productividad de tu PyME o emprendimiento</h5>
                                     <p class="card-text display-8">Hablamos de Pagos Digitales y aportes no reembolsables para financiar proyectos de desarrollo empresarial. </p>
                                 </div>
-                                <a href="#popup1"><button class="btn btn-secondary display-8 rounded-4 w-50 align-bottom mt-5">
+                                <a href="#popup1"><button class="btn btn-secondary display-8 rounded-4 w-50 align-bottom mt-5" onclick="displayPopUp()">
                                   Ver Más
                                 </button></a>
                             </div>
@@ -989,9 +989,9 @@
     <script src="assets/theme/js/script.js"></script>
     <script src="assets/formoid/formoid.min.js"></script>
 
-    <div id="popup1" class="overlay">
+    <div id="popup1" class="overlay" style="display: none;">
       <div class="popup">
-        <a class="close" href="#eventos">&times;</a>
+        <a class="close" onclick="displayPopUp()">&times;</a>
         <div class="content">
           <div class="row">
               <div class="col-md-6">
@@ -1014,5 +1014,16 @@
       </div>
     </div>
 
+    
+    <script>
+      function displayPopUp() {
+        var x = document.getElementById("popup1");
+        if (x.style.display === "none") {
+          x.style.display = "block";
+        } else {
+          x.style.display = "none";
+        }
+      }
+      </script>
   </body>
 </html>
