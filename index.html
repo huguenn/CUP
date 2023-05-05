@@ -98,17 +98,17 @@
             <div class="icons-menu">
               <a
                 class="iconfont-wrapper"
-                href="#"
+                href="https://twitter.com/CupUNSO?t=rOYYrktzKMznly09393hMg&s=08"
                 target="_blank"
               >
                 <span class="p-2 mbr-iconfont socicon-twitter socicon"></span>
               </a>
               <a
                 class="iconfont-wrapper"
-                href="#"
+                href=" https://www.linkedin.com/company/cupunso"
                 target="_blank"
               >
-                <span class="p-2 mbr-iconfont socicon-instagram socicon"></span>
+                <span class="p-2 mbr-iconfont socicon-linkedin socicon"></span>
               </a>
             </div>
           </div>
@@ -540,7 +540,7 @@
       id="gallery6-8"
     >
 <div>
-    <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+    <a class="carousel-control-prev" href="#" role="button" data-slide="prev">
       <img class="carousel-control" src="assets/images/flecha_iz_galeria.png">
 
   </a>
@@ -567,7 +567,7 @@
 
           </div>
         </div>
-        <a class="carousel-control-next" href="#carouselExampleControls" role="button">
+        <a class="carousel-control-next" href="#" role="button">
           <img class="carousel-control" src="assets/images/flecha_der_galeria.png">
 
         </a>
@@ -580,46 +580,11 @@
       id="gallery5-f"
     >
       <div class="container-flex">
-        <div class="row mbr-gallery m-4 justify-content-center">
-
-          <div class="col-12 col-md-6 col-lg-2 item gallery-image" style="margin: 2em;">
-            <img
-              class="img-responsive"
-              src="assets/images/logo-ministerio-7.png"
-            />
-          </div>
-
-
-          <div class="col-12 col-md-6 col-lg-3 item gallery-image" style="margin: 2em;">
-            <div
-              class="item-wrapper"
-            >
-              <img
-                class="img-responsive"
-                src="assets/images/logo-unso-7.png"
-
-              />
-            </div>
-          </div>
-
-
-
-          <div class="col-12 col-md-6 col-lg-2 item gallery-image" style="margin: 2em;">
-            <div
-              class="item-wrapper"
-            >
-              <img
-                class="img-responsive"
-                src="assets/images/logo-header.png"
-              />
-          </div>
-
-        </div>
         </div>         
           <row class="d-flex justify-content-center align-center">
               <p class="display-4 w-50 color-primario">Desde el centro universitario PyME UNSO trabajamos en el <strong>vinculo Universidad - Empresa</strong> 
                 con el fin de brindar una <strong>oferta académica actualizada</strong>, 
-                en sintonía con las <strong>necesidades regionales</strong>, que abra oportunidades para nuestrxs estudiantes y graduados en las empresas de la zona</p>
+                en sintonía con las <strong>necesidades regionales</strong>, que abra oportunidades para nuestros estudiantes y graduados en las empresas de la zona</p>
           </row>
         </div>
 
@@ -634,7 +599,7 @@
     >
       <img class="d-none d-sm-block" src="assets/images/grafico-te-ofrecemos-confondo-mesa-de-trabajo-1.jpg">
 
-      <img class="d-block d-sm-none" src="assets/images/mobile_servicios.png">
+      <img class="d-block d-sm-none" src="assets/images/mobile_servicios.jpg">
 
     </section>
 
@@ -909,7 +874,7 @@
           <div class="row social-row mb-xxl-5 mt-xxl-5">
             <div class="social-list align-right pb-2">
               <div class="soc-item">
-                <a href="https://twitter.com" target="_blank">
+                <a href="https://twitter.com/CupUNSO?t=rOYYrktzKMznly09393hMg&s=08" target="_blank">
                   <span
                     class="
                       mbr-iconfont mbr-iconfont-social
@@ -919,11 +884,11 @@
                 </a>
               </div>
               <div class="soc-item">
-                <a href="https://www.facebook.com/" target="_blank">
+                <a href=" https://www.linkedin.com/company/cupunso" target="_blank">
                   <span
                     class="
                       mbr-iconfont mbr-iconfont-social
-                      socicon-instagram socicon
+                      socicon-linkedin socicon
                     "
                   ></span>
                 </a>
@@ -979,19 +944,10 @@
     <script src="assets/dropdown/js/navbar-dropdown.js"></script>
     <script src="assets/theme/js/script.js"></script>
     <script src="assets/formoid/formoid.min.js"></script>
-    <script>
-      function displayPopUp() {
-        var x = document.getElementById("popup1");
-        if (x.style.display === "none") {
-          x.style.display = "block";
-        } else {
-          x.style.display = "none";
-        }
-      }
-      </script>
-    <div id="popup1" class="overlay" style="display: none;" onclick="displayPopUp()">
+
+    <div id="popup1" class="overlay" style="display: none;">
       <div class="popup">
-        <a class="close">&times;</a>
+        <a class="close" onclick="displayPopUp()">&times;</a>
         <div class="content">
           <div class="row">
               <div class="col-md-6">
@@ -1015,6 +971,15 @@
     </div>
 
     
-
+    <script>
+      function displayPopUp() {
+        var x = document.getElementById("popup1");
+        if (x.style.display === "none") {
+          x.style.display = "block";
+        } else {
+          x.style.display = "none";
+        }
+      }
+      </script>
   </body>
 </html>
